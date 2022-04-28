@@ -8,3 +8,6 @@ git checkout -- <file name>
 #Delete committed file
 git revert <commit name>
 git revert -n <commit name>
+
+#Resetting history(log)
+git reset --hard <last commit id you want>
