@@ -1,2 +1,10 @@
 git pull --rebase <remote name> <branch name>
 git push -u <remote name> <branch name>
+
+
+#Delete  added file
+git checkout -- <file name>
+
+#Delete committed file
+git revert <commit name>
+git revert -n <commit name>
